@@ -1,0 +1,21 @@
+.icon{
+    width: 400px;
+    position: relative;
+    display: flex;
+    animation: icon-time 3s infinite;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+@keyframes icon-time{
+    0%{
+        width: 200px;
+    }
+    50%{
+        width: 600px;
+    }
+    100%{
+        width: 200px;
+    }
+}
